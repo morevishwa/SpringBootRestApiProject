@@ -20,7 +20,7 @@ public class Employee {
 	private String phone;
 	private String email;
 	private String dev;
-
+	private String salary;
 
 	public Integer getId() {
 		return id;
