@@ -17,7 +17,7 @@ public class Employee {
 	private String city;
 	private String country;
 	private String add;
-
+	private String phone;
 	public Integer getId() {
 		return id;
 	}
