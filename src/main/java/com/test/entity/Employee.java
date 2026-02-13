@@ -18,6 +18,8 @@ public class Employee {
 	private String country;
 	private String add;
 	private String phone;
+	private String email;
+
 	public Integer getId() {
 		return id;
 	}
