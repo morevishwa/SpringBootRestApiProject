@@ -6,6 +6,7 @@ import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 //entity only for dev
+//- extended to base
 
 
 //changes from rohit
