@@ -5,7 +5,11 @@ import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.Table;
-//entity
+//entity only for dev
+//- extended to base
+
+
+//changes from rohit
 @Entity
 @Table(name = "employee_tbl")
 public class Employee {
