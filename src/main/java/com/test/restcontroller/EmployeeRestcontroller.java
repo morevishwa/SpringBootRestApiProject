@@ -17,7 +17,8 @@ public class EmployeeRestcontroller {
 
 	@Autowired
 	private EmployeeService employeeservice;
-	
+
+	//for post mapping
 	@PostMapping("/saveEmployee")
 	public Employee saveEmployee(@RequestBody Employee employee)
 	{
