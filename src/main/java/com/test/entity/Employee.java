@@ -5,7 +5,7 @@ import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.Table;
-
+//entity
 @Entity
 @Table(name = "employee_tbl")
 public class Employee {
@@ -20,7 +20,7 @@ public class Employee {
 	private String phone;
 	private String email;
 	private String dev;
-
+	private String salary;
 
 	public Integer getId() {
 		return id;
